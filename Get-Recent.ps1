@@ -13,7 +13,7 @@ param(
     # Number of Articles
     [int]$p = 5,
     # Text-To-Speech for Titles
-    [bool]$speak = $true
+    [bool]$speak = $false
 )
 $apiKey = '27605a93416945e69d50642adb983dc4'
 $uri = "https://newsapi.org/v2/top-headlines?country=$c&apiKey=$apiKey&category=$cat&q=$q&pageSize=$p"
